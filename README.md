@@ -4,11 +4,15 @@ An open-source, evidence-led agent skill for choosing, building, demoing, and su
 
 ## Quick start
 
-Clone this folder and point your coding agent at `SKILL.md`, or place the folder in your tool's skills directory if it supports skill discovery. Tools that read repository instructions can use `AGENTS.md`. For other IDEs/CLIs, include the `SKILL.md` path in the prompt and ask the agent to read only the relevant playbooks. No scripts, credentials, or service accounts are required.
+Clone the repository and point your coding agent at its root `SKILL.md`, or place the folder in your tool's skills directory if it supports skill discovery. Tools that read repository instructions can use `AGENTS.md`. For other IDEs/CLIs, include the `SKILL.md` path in the prompt and ask the agent to read only the relevant playbooks. No scripts, credentials, or service accounts are required.
+
+```bash
+git clone https://github.com/hrgang-hrushi/fw-hackathons.git
+```
 
 Starter prompt:
 
-> Use `hackathon-win-kit/SKILL.md` for [official event URL]. We have [hours] hours, [team and skills], and want to target [prizes]. Read current rules, compare three ideas, then give us a one-page build contract, milestone board, demo path, and submission risks. Mark anything unverified.
+> Use `SKILL.md` for [official event URL]. We have [hours] hours, [team and skills], and want to target [prizes]. Read current rules, compare three ideas, then give us a one-page build contract, milestone board, demo path, and submission risks. Mark anything unverified.
 
 ## What is inside
 
