@@ -44,7 +44,7 @@ The included time allocations and sample rubric are heuristics. A 24-hour in-per
 
 ## Evidence standard
 
-The [data audit](references/data-audit.md) processes 2,222 Devpost submissions, their embedded GitHub README excerpts, a larger historical corpus, a winner index, and official galleries. It distinguishes overall placement from other awards and records missing outcomes. Project pages are self-reported descriptions, not independent audits. Patterns are hypotheses to test against a new event, not causal proof or a recipe guaranteed to win. Current recommendations about a specific API, prize, or submission format require fresh verification.
+The [data audit](references/data-audit.md) processes 2,222 Devpost submissions, their embedded GitHub README excerpts, **all 261,940 rows in a larger historical corpus**, a winner index, and official galleries. The [reproducible large-corpus audit](research/README.md#reproduce-the-large-corpus-audit) separates placement-like, participation, and ambiguous prize text and compares projects within events. Project pages are self-reported descriptions, not independent audits. Patterns are hypotheses to test against a new event, not causal proof or a recipe guaranteed to win. Current recommendations about a specific API, prize, or submission format require fresh verification.
 
 ## Contributing
 

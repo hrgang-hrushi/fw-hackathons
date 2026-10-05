@@ -15,3 +15,13 @@ The original files audited on 2026-10-05 had these SHA-256 values:
 - HackWinnerDB Git commit: `dce17b1b222e9e3ad4d251f93e008c63527c2edb`
 
 An updated release can yield different counts. Verify any current winner, sponsor, or rule claim on the corresponding official event page.
+
+## Reproduce the large-corpus audit
+
+Download `combined_hackathons.parquet` from [the larger collection](https://huggingface.co/datasets/alvanlii/devpost-hackathon-projects) into a local path. Run:
+
+```bash
+python research/audit_large_dataset.py /path/to/combined_hackathons.parquet
+```
+
+The script scans all rows, parses serialized prize/tag/team lists, applies conservative prize-text categories, and reports aggregate within-event differences. It emits no project descriptions or team names. It is an **audit of historical observations**, not a predictive model. The dataset card does not specify a reusable license; confirm rights before redistributing source records. For the exact label interpretation and limitations, read [the full-corpus audit](../references/data-audit.md#full-corpus-label-audit-and-event-matched-comparison).

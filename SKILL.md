@@ -37,6 +37,7 @@ Before declaring the plan complete, scan the [full-cycle checklist](playbooks/co
 - For claims in medicine, finance, public safety, or other consequential domains, use credible data and make uncertainty and human review visible.
 - Respect event rules, attribution, licenses, privacy, and teammate consent. Do not fabricate users, metrics, integrations, or live behavior.
 - Distinguish overall podium placements from sponsor/track awards, honorable mentions, participation awards, and unpublished results when learning from prior projects. See the [four-source data audit](references/data-audit.md).
+- When mining historical projects, compare examples within the same event and verify award type on its official page. The [large-corpus audit](references/data-audit.md#full-corpus-label-audit-and-event-matched-comparison) found that prize text and missing labels are too noisy for a winner classifier. Treat description length, tag count, and team size as descriptive signals, never targets to inflate.
 
 ## Outputs to produce for a team
 
